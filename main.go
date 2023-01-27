@@ -35,7 +35,7 @@ func exibeMenu() {
 	fmt.Println("3 - Multiplicar")
 	fmt.Println("4 - Dividir")
 	fmt.Println("5 - Sair do programa")
-	fmt.Println("Digite a opção da operação desejada:")
+	fmt.Print("Digite a opção da operação desejada:")
 
 }
 
@@ -59,14 +59,14 @@ func main() {
 		opcao := leOpcao()
 
 		if opcao == 5 {
-			fmt.Println("Saindo do programa")
+			fmt.Println("Saindo do programa ...")
 			os.Exit(0)
 		}
 
-		fmt.Println("Informe o primeiro número:")
+		fmt.Print("Informe o primeiro número:")
 		fmt.Scanln(&num1)
 
-		fmt.Println("Informe o segundo número:")
+		fmt.Print("Informe o segundo número:")
 		fmt.Scanln(&num2)
 
 		switch opcao {
