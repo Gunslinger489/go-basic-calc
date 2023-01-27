@@ -27,7 +27,7 @@ func divisao(num1, num2 float64) float64 {
 
 func exibeMenu() {
 
-	nome := "Lucas"
+	nome := os.Getenv("USER")
 
 	fmt.Println("Olá,", nome)
 	fmt.Println("1 - Somar")
